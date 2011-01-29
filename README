@@ -4,3 +4,7 @@ The module currently resides in the main bbb repo at https://github.com/bigblueb
 
 To enable the module, uncomment it in the client's config.xml file.
 In BigBlueButton.html, you need to uncomment the two javascript helper files that belong to the NotesModule. Alternatively, uncomment these same files in index.template.html and rebuild the client.
+
+In the /jsp folder, deploy the file notes.jsp to your bigbluebutton tomcat installation bigbluebutton/notes/ folder (default ubuntu would be /var/lib/tomcat6/webapps/bigbluebutton/notes/notes.jsp).
+
+You will also of course need to deploy the Live Notes server. See the Live Notes project above for simple instructions on how to do that.
