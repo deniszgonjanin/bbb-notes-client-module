@@ -1,1 +1,6 @@
-A BigBlueButton module for the BBB-Notes server.
+A BigBlueButton module for the Live Notes server: https://github.com/ielashi/live-notes-server
+
+The module currently resides in the main bbb repo at https://github.com/bigbluebutton/bigbluebutton
+
+To enable the module, uncomment it in the client's config.xml file.
+In BigBlueButton.html, you need to uncomment the two javascript helper files that belong to the NotesModule. Alternatively, uncomment these same files in index.template.html and rebuild the client.
